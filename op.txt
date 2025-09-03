@@ -1,0 +1,13 @@
+Parsing Mini-C and generating TAC...
+TAC: a = 3
+TAC: b = 4
+TAC: c = 0
+TAC: t0 = a + b
+TAC: c = t0
+TAC: t1 = c
+TAC: if NOT t1 < 5 goto l0
+TAC: c = 10
+TAC: goto l1
+l0:
+TAC: c = 100
+l1:
