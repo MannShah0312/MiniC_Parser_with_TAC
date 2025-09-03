@@ -28,7 +28,9 @@ sudo apt-get install flex bison gcc
 
 ## 🚀 Build Instructions
 
+```bash
 bison -d parser.y -o parser.tab.c
 flex -o lex.yy.c lexer.l
 gcc parser.tab.c lex.yy.c -o parser -lfl
+```
 
